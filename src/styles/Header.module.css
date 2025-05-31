@@ -1,0 +1,31 @@
+.header {
+  background-color: #F6F6F6;
+  font-size: 27px;
+}
+
+.logoCircle {
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  border-radius: 50%;
+}
+
+.logoText {
+  font-size: 20px;
+}
+
+.searchWrapper {
+  max-width: 245px;
+}
+
+.profileCircle {
+  width: 30px;
+  height: 34px;
+  background-color: hsl(210, 25%, 98%);
+  border-radius: 50%;
+}
+
+
+.modal.fade.show.d-block {
+  background: rgba(0, 0, 0, 0.6);
+}

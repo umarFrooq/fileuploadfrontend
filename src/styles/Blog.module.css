@@ -1,0 +1,20 @@
+.blog{
+    width:60%;
+}
+.head{
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+pre{
+    margin: 0px;
+    padding: 0px;
+}
+/* hr{
+    width: 68%;
+    justify-content: end;
+} */
+@media (max-width: 425px) {
+    .blog{
+    width:100%;
+}
+ }

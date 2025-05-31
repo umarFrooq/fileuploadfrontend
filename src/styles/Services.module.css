@@ -1,0 +1,86 @@
+.cart {
+  padding: 50px;
+  padding-right: 70px;
+  border-radius: 10px;
+  height: 450px;
+  gap: 50px;
+  width: 88.33%;
+  font-size: 20px;
+  background-color: white;
+  color: black; 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cart:hover {
+  background-color: black;
+  color: white; 
+}
+
+.cart:hover .details {
+  background-color: #FFD700; 
+  color: black; 
+}
+
+.cartRow {
+  gap: 3%;
+}
+
+.mainCart {
+  padding-top: 5%;
+}
+
+.serviceTop {
+  padding-top: 7%;
+}
+
+.details {
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+
+.serivce{
+font-size: 18px !important;
+/* padding-right: 50px; */
+width: 84%;
+}
+.servicehead{
+  font-size: 44px;
+  padding-right: 12px;
+}
+
+
+@media (max-width: 778px) {
+  .serivce {
+   width: 100%;
+   font-size: 5px;
+  }
+  .cart{
+    padding-top: 30px;
+  padding-left:10px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 778px) {
+  .serivce {
+   width: 100%;
+   font-size: 5px;
+  }
+  .cart{
+    padding-top: 20px;
+  padding-left:10px;
+  padding-right:0px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .servicehead{
+     font-size: 25px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+
+  }
+}

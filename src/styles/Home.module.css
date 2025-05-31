@@ -1,0 +1,433 @@
+/* Home.module.css */
+
+.container {
+  max-width: 100%;
+  font-family: 'Inter', sans-serif;
+}
+.nestContainer{
+    max-width: 100%;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+  /* overflow-x: hidden; */
+  background-color: #203151;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+ color: white;
+height: 550px;
+margin: 0px;
+font-size: 127%;
+font-family: 'Inter', sans-serif;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 10% 0 0 15%;
+}
+
+.profComp {
+  width: 50%;
+}
+
+.profComp1 {
+  width: 30%;
+}
+
+.profComp > p {
+  width: 70%;
+}
+
+.profComp > button {
+  background-color: #FF6464;
+  padding: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.profComp1 > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.mainHome {
+  width: 100%;
+}
+
+.div_1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.div_1_1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+}
+
+.div_1_1 > h3,
+.div_1_1 > h1 {
+  margin: 0;
+}
+
+.profilDiv {
+  width: 18%;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.profilDiv > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.downloadButon {
+  width: 40%;
+  padding: 1%;
+  background-color: #FF6464;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.posts {
+  display: block;
+  width: 100%;
+  padding: 7px 0 7px 15%;
+  background-color: #e1f5fc;
+}
+
+.postshead {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15%;
+}
+
+.postCart {
+  width: 38%;
+  background-color: white;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.carts {
+  display: flex;
+  width: 100%;
+}
+
+.viewAl {
+  padding-right: 8px;
+}
+
+.experience {
+  padding-left: 15%;
+}
+
+.work {
+  display: flex;
+  margin-top: 20px;
+}
+
+.workImage {
+  width: 20%;
+}
+
+.workImage > img {
+  width: 100%;
+}
+
+.workChild2 {
+  padding-left: 20px;
+  width: 60%;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+}
+
+.dash {
+  padding-left: 20px;
+}
+
+.year {
+  border-radius: 43%;
+  background-color: black;
+  color: white;
+  padding: 1px 10px;
+}
+
+.socilal {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.socilal > div {
+  width: 40px;
+  margin: 8px;
+}
+
+.socilalImg {
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 20px;
+}
+
+.headDive {
+  text-decoration: none;
+  font-size: x-large;
+  color: black;
+}
+
+.margins {
+  margin: 0px;
+  color: blue;
+}
+
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: black;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+
+
+
+.Percent{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+.mainPercent{
+  margin-left: 21%;
+margin-right: 21%; 
+padding: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+
+
+
+@media (max-width: 425px) {
+
+.profile{
+    flex-direction: column;
+    width: 100%;
+}
+.viewAl{display: none;}
+.postshead{
+    justify-content: center;
+}
+.carts{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.postCart{
+    width: 100%;
+    justify-content: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+.profile{
+    padding: 1px;
+    margin-bottom: 1px;
+}
+.div_1_1{
+        padding: 1px;
+    margin-bottom: 1px;
+}
+.posts{
+            padding: 1px;
+    margin-bottom: 1px;
+}
+.experience{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1px;
+    padding: 1px;
+}
+.work{
+       flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.workImage{
+    width: 100%;
+}
+.workChild2{
+    width: 100%;
+}
+.profComp {
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+width: 100%;
+  order: 2; 
+}
+
+.profComp1 {
+    justify-content: center;
+    align-items: center;
+width: 50%;
+  order: 1; 
+}
+.profile{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+.profComp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  order: 2;
+  text-align: center; /* Center the text content */
+}
+
+.profComp > h1,
+.profComp > p {
+  width: 100%;
+  text-align: center;
+}
+
+
+}
+
+
+.subPercentClass >p{
+margin: 0px;
+padding: 0px;
+}
+
+.subPercentClass >h1{
+margin: 0px;
+padding: 0px;
+font-size: 3.75rem;
+font-weight: bolder;
+}
+
+
+.stagegy{
+  background-color:#171D2F;
+  display: flex;
+  justify-content: center;
+}
+.stagegy > div {
+  width: 50%;
+}
+.stagegyImg >img {
+  width: 100%;
+}
+
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 778px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
+
+

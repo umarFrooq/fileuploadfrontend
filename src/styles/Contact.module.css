@@ -1,0 +1,23 @@
+.mainContainer{
+    /* margin: 0px; */
+}
+
+.secondDiv{
+    background-color: #EDF0F6;
+}
+
+.formImg{
+    height: 598px;
+font-size: 20px;
+}
+.formStruc{
+    height: 500px;
+    
+}
+
+.sendBut{
+    background-color: #BDE162;
+}
+.contactService{
+    font-size: 18px;
+}
